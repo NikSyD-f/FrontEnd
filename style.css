@@ -1,0 +1,98 @@
+.title{
+position:absolute;
+width: 400px;
+heigth:80px;
+border-radius:5px;
+top: 5px;
+left: 600px;
+border: solid black 3px;
+text-align: center;
+background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+background-position: 0 0;
+animation: background 2s infinite alternate;
+}
+@keyframes background {
+  100% {
+    background-position: 0 100px;
+  }
+}
+.menu{
+position:absolute;
+
+width: 1000px;
+height:150px;
+border-radius:5px;
+top: 130px;
+left: 300px;
+border: solid black 3px;
+text-align:center;
+background:linear-gradient(crimson,brown);
+}
+
+.h21:hover {
+    animation: bounce 1s ;
+}
+
+.h21 {
+    background-color: lightgrey;
+    width: 200px;
+    height: 100px;
+    margin: 20px
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
+.professions{
+position:absolute;
+top:300px;
+left:40px;
+width:1600px;
+height:1150px;
+background: linear-gradient(crimson,brown);
+border:solid 3px black;
+}
+
+.prof1{
+padding:6px;
+position:absolute;
+top:10px;
+left:60px;
+width:1500px;
+height:px;
+background-color: white;
+border:solid 3px black;
+}
+
+.prof2{
+padding:6px;
+position:absolute;
+top:450px;
+left:60px;
+width:1500px;
+height:px;
+background-color: white;
+border:solid 3px black;
+}
+
+.prof3{
+padding:6px;
+position:absolute;
+top:800px;
+left:60px;
+width:1500px;
+height:px;
+background-color: white;
+border:solid 3px black;
+}
+
+h1{
+text-align: center}
+
+body{
+    background: linear-gradient(grey,black)
+}
